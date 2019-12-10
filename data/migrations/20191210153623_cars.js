@@ -21,7 +21,7 @@ exports.up = function(knex) {
         .notNullable()
         .index(); 
 
-        tbl.string("transmission type", 255)
+        tbl.string("transmission", 255)
        
         .index(); 
 
